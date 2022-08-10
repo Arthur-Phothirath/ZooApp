@@ -17,7 +17,7 @@ public class Fichier {
 
     public static List<String> recupererLignes(String chemin){
         List<String> liste= new ArrayList<>();
-        String line = "sjidjklnqklsd";
+        String line = "";
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(cheminCree + chemin));
